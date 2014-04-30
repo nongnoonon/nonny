@@ -1,0 +1,101 @@
+/* CSS Document */
+
+/*  Start Course Style*/
+.container-metrostyle .metro-course .bachelor{ width: 377px; height: 380px; margin-right: 10px;}
+.container-metrostyle .metro-course .bachelor #preface{ height: 120px; overflow: hidden; background: #723236; }
+.container-metrostyle .metro-course .bachelor #content{ height: 260px; overflow-x: hidden; overflow-y: auto; margin: 0; padding: 0; background: #deac99; opacity: 0; display: none; }
+
+.container-metrostyle .metro-course .bachelor #preface h3{ margin: 0; padding: 5px; color: #fff; line-height: 24px;}
+.container-metrostyle .metro-course .bachelor #preface sup{ margin: 0; padding: 5px; font-size: 16px; color: #fff;}
+.container-metrostyle .metro-course .bachelor #preface sup:before{ content: "( "; }
+.container-metrostyle .metro-course .bachelor #preface sup:after{ content: " )"; }
+.container-metrostyle .metro-course .bachelor #preface p{ margin: 0; padding: 5px; color: #e4bdae;}
+.container-metrostyle .metro-course .bachelor #preface p.more{ margin: 0; padding: 0 5px; }
+.container-metrostyle .metro-course .bachelor #preface p.more a.more{ background: #000; padding: 0 2px; }
+.container-metrostyle .metro-course .bachelor a{ cursor: pointer;}
+.container-metrostyle .metro-course .bachelor a.more{ cursor: pointer; }
+.container-metrostyle .metro-course .bachelor a.more:hover{ opacity:0.7; filter:alpha(opacity=70); }
+
+.container-metrostyle .metro-course .bachelor .preface p.more a.back{
+	opacity: 0; display: none;
+	position:relative;
+	top: -80px;
+	right: 3px;
+	background:#fff url(../image/cross.png) no-repeat center center;
+	width:27px;
+	height:27px;
+	text-indent:-9000px;
+	outline:none;
+	-moz-box-shadow:1px 1px 2px rgba(0,0,0,0.2);
+	-webkit-box-shadow:1px 1px 2px rgba(0,0,0,0.2);
+	box-shadow:1px 1px 2px rgba(0,0,0,0.2);
+	opacity:0.7;
+}
+.container-metrostyle .metro-course .bachelor img.preface{ margin: 11px 0 5px;}
+
+.container-metrostyle .metro-course .bachelor #content h3 a{ margin: 0; padding: 0; line-height: 20px; color: #723236;}
+.container-metrostyle .metro-course .bachelor #content p{ margin: 0; padding: 0 5px; line-height: 20px;}
+
+.container-metrostyle .metro-course .master{ width: 377px; height: 380px; }
+.container-metrostyle .metro-course .master #preface{ height: 120px; overflow: hidden; background: #723236; }
+.container-metrostyle .metro-course .master #content{ height: 260px; overflow-x: hidden; overflow-y: auto; margin: 0; padding: 0; background: #d4bed8; opacity: 0; display: none; }
+
+.container-metrostyle .metro-course .master #preface h3{ margin: 0; padding: 5px; color: #fff; line-height: 24px;}
+.container-metrostyle .metro-course .master #preface sup{ margin: 0; padding: 5px; font-size: 16px; color: #fff;}
+.container-metrostyle .metro-course .master #preface sup:before{ content: "( "; }
+.container-metrostyle .metro-course .master #preface sup:after{ content: " )"; }
+.container-metrostyle .metro-course .master #preface p{ margin: 0; padding: 5px; color: #e4bdae;}
+.container-metrostyle .metro-course .master #preface p.more{ margin: 0; padding: 0 5px; }
+.container-metrostyle .metro-course .master #preface p.more a.more{ background: #000; padding: 0 2px; }
+.container-metrostyle .metro-course .master a{ cursor: pointer;}
+.container-metrostyle .metro-course .master a.more{ cursor: pointer; }
+.container-metrostyle .metro-course .master a.more:hover{ opacity:0.7; filter:alpha(opacity=70); }
+.container-metrostyle .metro-course .master #preface a.back{
+	opacity: 0; display: none;
+	position:relative;
+	top: -80px;
+	right: 3px;
+	background:#fff url(../image/cross.png) no-repeat center center;
+	width:27px;
+	height:27px;
+	text-indent:-9000px;
+	outline:none;
+	-moz-box-shadow:1px 1px 2px rgba(0,0,0,0.2);
+	-webkit-box-shadow:1px 1px 2px rgba(0,0,0,0.2);
+	box-shadow:1px 1px 2px rgba(0,0,0,0.2);
+	opacity:0.7;
+    }
+.container-metrostyle .metro-course .master img.preface{ margin: 11px 0 5px;}
+
+.container-metrostyle .metro-course .master #content h3 a{ margin: 0; padding: 0; line-height: 20px; color: #723236;}
+.container-metrostyle .metro-course .master #content p{ margin: 0; padding: 0 5px; line-height: 20px;}
+
+.container-metrostyle .metro-course .bachelor #content::-webkit-scrollbar,
+.container-metrostyle .metro-course .master #content::-webkit-scrollbar{
+	width: 10px;
+	height: 10px;
+}
+
+.container-metrostyle .metro-course .bachelor #content::-webkit-scrollbar-button:start:decrement,
+.container-metrostyle .metro-course .bachelor #content::-webkit-scrollbar-button:end:increment,
+.container-metrostyle .metro-course .master #content::-webkit-scrollbar-button:start:decrement,
+.container-metrostyle .metro-course .master #content::-webkit-scrollbar-button:end:increment {
+	height: 30px;
+	display: block;
+	background-color: transparent;
+}
+
+.container-metrostyle .metro-course .bachelor #content::-webkit-scrollbar-track-piece ,
+.container-metrostyle .metro-course .master #content::-webkit-scrollbar-track-piece {
+	background-color: #3b3b3b;
+	-webkit-border-radius: 6px;
+}
+
+.container-metrostyle .metro-course .bachelor #content::-webkit-scrollbar-thumb:vertical,
+.container-metrostyle .metro-course .master #content::-webkit-scrollbar-thumb:vertical{
+	height: 50px;
+	background-color: #666;
+	border: 1px solid #eee;
+	-webkit-border-radius: 6px;
+}
+/*  End Course Style*/

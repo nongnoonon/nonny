@@ -1,0 +1,179 @@
+/* CSS Document */
+
+/* Add additional stylesheets below
+-------------------------------------------------- */
+/*
+  Bootstrap's documentation styles
+  Special styles for presenting Bootstrap's documentation and examples
+*/
+
+
+/* Body and structure
+-------------------------------------------------- */
+@font-face {
+    font-family: "PSL Kittithada";
+    src: url('../fonts/PSL096.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/PSL096.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/PSL096.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/PSL096.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/PSL096.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+    font-family: "PSL";
+    src: url('../fonts/PSL094.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/PSL094.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/PSL094.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/PSL094.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/PSL094.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+body {
+  position: relative;
+  /*background-image: url(../image/grid-18px-masked.png);*/
+  background-attachment: fixed;
+  font: 18px/27px PSL Kittithada;
+  letter-spacing: 1px;
+  font-weight: 300;
+  overflow: auto;
+}
+
+ul li {font-family: PSL Kittithada;}
+h1, h2, h3, h4, h5 { margin: 0; padding: 0; }
+
+
+/* Fixed subnav on scroll, but only for 980px and up (sorry IE!) */
+/*
+@media (min-width: 980px) {
+ 
+}
+
+/* Responsive Docs
+-------------------------------------------------- 
+@media (max-width: 480px) {
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 980px) {
+
+}
+
+@media (max-width: 980px) {
+
+}
+
+
+/* LARGE DESKTOP SCREENS 
+@media (min-width: 1210px) {
+*/
+
+
+/** main engineer page **/
+.container-metrostyle{ width: 1024px !important; min-height: 620px; padding: 0 10px 10px; background-color: transparent;}
+.container-metrostyle #headbar{ height: 90px;}
+
+.container-faculty #headbar{ }
+
+.container-bachelor{ color: #fff; }
+.container-bachelor #headbar{ padding: 10px 0 10px 0;}
+.container-bachelor #headbar p{ margin: 2px 0 0 0; padding: 5px 0 0 5px; color: #fff; font-size: 58px; font-family: PSL; letter-spacing: 3px; height: 32px;}
+.container-bachelor #headbar span{ margin: 0; padding: 0 0 0 5px; font-size: 20px; font-family: PSL Kittithada; letter-spacing: 3px;}
+
+.container-master{ color: #fff; }
+.container-master #headbar{ padding-top: 20px;}
+.container-master #headbar p{ margin: 2px 0 0 0; padding: 5px 0 0 5px; color: #fff; font-size: 58px; font-family: PSL; letter-spacing: 3px; height: 32px;}
+.container-master #headbar span{ margin: 0; padding: 0 0 0 5px; color: #fff; font-size: 20px; font-family: PSL; letter-spacing: 3px;}
+.container-master a{ color: #fff; }
+
+/** metro navi **/
+.container-metrostyle .metro-navi{ width: 260px; overflow-y: hidden;}
+.container-metrostyle .metro-navi ul{ margin: 0; padding: 0;  list-style: none;}
+.container-metrostyle .metro-navi ul li{ display: inline-block; float: left; margin: 0 10px 10px 0; height: 120px; width: 120px;}
+.container-metrostyle .metro-navi ul li.doublebox{ width: 250px;}
+.container-metrostyle .metro-navi li a{ display: block; color: #fff; text-transform: capitalize; text-decoration: none; margin: 0 5px; }
+.container-metrostyle .metro-navi ul li i{display: block; width: 110px; height: 60px; padding: 10px 0 0 0; text-align: center;}
+.container-metrostyle .metro-navi ul li:hover{ opacity:0.7; filter:alpha(opacity=70); }
+
+.container-metrostyle .metro-navi ul li.home{ background-color: #580d19;}
+.container-metrostyle .metro-navi ul li.main{ background-color: #2b87ee;}
+.container-metrostyle .metro-navi ul li.staff{ background-color: #000dbc;}
+.container-metrostyle .metro-navi ul li.course{ background-color: #2b87ee;}
+.container-metrostyle .metro-navi ul li.program{ background-color: #6ab51d;}
+.container-metrostyle .metro-navi ul li.about{ background-color: #901b5d;}
+.container-metrostyle .metro-navi ul li.agencies{ background-color: #8D19AD;}
+.container-metrostyle .metro-navi ul li.activity{ background-color: #bb1c45;}
+.container-metrostyle .metro-navi ul li.award{ background-color: #603cba;}
+.container-metrostyle .metro-navi ul li.contact{ background-color: #CA8919;}
+.container-metrostyle .metro-navi ul li.contactus{ background-color: #da542e;}
+.container-metrostyle .metro-navi ul li.lab{ background-color: #00576b;}
+.container-metrostyle .metro-navi ul li.student{ background-color: #deb125;}
+
+/** metro index **/
+.container-metrostyle .metro-index{}
+.container-metrostyle .metro-index ul{ margin: 0; padding: 0;  list-style: none; }
+.container-metrostyle .metro-index ul li{ display: inline-block; float: left; margin: 0 0 10px 14.6px; height: 380px; width: 245px; background-color: #fff;}
+.container-metrostyle .metro-index ul li a:hover{ color: #f00;}
+.container-metrostyle .metro-index ul li:first-child{ margin: 0; }
+.container-metrostyle .metro-index ul li a{ display: block; color: #fff; text-transform: capitalize; text-decoration: none; margin: 0;}
+.container-metrostyle .metro-index ul li i{display: block; width: 100%; height: 350px; padding: 0; text-align: center;}
+.container-metrostyle .metro-index ul li p{ background-color: #000; padding: 5px; margin:0;}
+
+
+/** metro slider **/
+.container-metrostyle .metro-slider ul{ margin: 0; padding: 0;  list-style: none; }
+.container-metrostyle .metro-slider ul li{ display: inline-block; float: left; margin: 0 0 10px 10px; height: 380px; width: 245px; background-color: #f00; }
+.container-metrostyle .metro-slider ul li:first-child{ margin: 0; }
+
+/** metro content **/
+.container-metrostyle .metro-slider,
+.container-metrostyle .metro-content,
+.container-metrostyle .metro-course,
+.container-metrostyle .metro-agencies,
+.container-metrostyle .metro-contact{ width: 764px; }
+
+/** metro contact style **/
+.container-metrostyle .metro-contact .address{ margin: 0 5px 0 0}
+
+/** metro lab style **/
+
+.container-metrostyle .metro-index .desc{ width: 0; height: 0; opacity: 0; background: #000; float: left; margin-left: 10px; overflow-x: hidden; overflow-y: auto;}
+.container-metrostyle .metro-index .close{position: relative; top: 0px; right: 0px;
+  background: white url(../image/cross.png) no-repeat center center;
+  width: 27px;
+  height: 27px;
+  text-indent: -9000px;
+  outline: none;
+  -moz-box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+  -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  opacity: 0.7;
+} 
+
+/** metro footer **/
+.container-department .metro-footer{}
+.container-metrostyle .metro-footer .social{ text-align: right; }
+.container-metrostyle .metro-footer .social ul li{ display: inline-block; float: left; margin: 0 0 0 5px;}
+.container-metrostyle .metro-footer .social-inbox{ padding-top: 70px; }
+.container-metrostyle .metro-footer .back{}
+.container-metrostyle .metro-footer .back ul li{ margin: 0; padding: 0; height: 90px; width: 240px; background-color: #2b87ee; list-style: none;}
+.container-metrostyle .metro-footer .back ul li a{ display: block; color: #fff; text-transform: capitalize; text-decoration: none; margin: 0; font-size: 20px;}
+.container-metrostyle .metro-footer .back ul li p{ display: block; height: 90px; padding: 60px 5px 5px; }
+.container-metrostyle .metro-footer .back ul li p i{margin-top: 5px; margin-right: 5px;}
+.container-metrostyle .metro-footer .back ul li:hover{ opacity:0.7; filter:alpha(opacity=70); }
+
+.paddingtop5{width:100%;height:5px;}
+.paddingtop10{width:100%;height:10px;}
+.paddingtop30{width:100%;height:30px;}
+
+/*
+}
+*/
+

@@ -1,0 +1,66 @@
+/* CSS Document */
+
+.container-metrostyle .metro-agencies{ background-color: #fff; }
+.container-metrostyle .metro-agencies .title-bar{ padding: 15px 0px 2px 5px; margin: 0; background-color: #125251; width: 759px; color: #fff; text-transform: capitalize; }
+.container-metrostyle .metro-agencies .title-bar a.close{
+	opacity: 0; display: none;
+	position:relative;
+	top: -5px;
+	right: 5px;
+	background:#fff url(../image/cross.png) no-repeat center center;
+	width:27px;
+	height:27px;
+	text-indent:-9000px;
+	outline:none;
+	-moz-box-shadow:1px 1px 2px rgba(0,0,0,0.2);
+	-webkit-box-shadow:1px 1px 2px rgba(0,0,0,0.2);
+	box-shadow:1px 1px 2px rgba(0,0,0,0.2);
+	opacity:0.7;
+}
+.container-metrostyle .metro-agencies .mini-content{ width: 764px; margin-top: 10px; overflow: hidden; }
+.container-metrostyle .metro-agencies .mini-content img{ cursor: pointer; }
+.container-metrostyle .metro-agencies .content{ display: none; height: 320px; margin-top: 10px; overflow-x: hidden; overflow-y: auto; }
+.container-metrostyle .metro-agencies .bachelor-content{ height: 320px; color: #000; margin-top: 10px; overflow-x: hidden; overflow-y: auto; }
+
+.container-metrostyle .metro-agencies .content .personal,
+.container-metrostyle .metro-agencies .bachelor-content .personal{ min-height: 320px; }
+
+.container-metrostyle .metro-agencies .content .personal p,
+.container-metrostyle .metro-agencies .bachelor-content .personal p{ margin: 0; padding: 0; line-height: 20px; }
+
+.container-metrostyle .metro-agencies .content .personal ul.social,
+.container-metrostyle .metro-agencies .bachelor-content .personal ul.social{ margin: 0; padding: 0; }
+
+.container-metrostyle .metro-agencies .content .personal ul.social li,
+.container-metrostyle .metro-agencies .bachelor-content .personal ul.social li{ display: inline-block; float: left; margin-right: 2px;}
+
+.container-metrostyle .metro-agencies .footer-bar{ padding: 0; margin: 8px 0 0 0; background-color: #125251; width: 764px; height: 5px; }
+
+.container-metrostyle .metro-agencies .content::-webkit-scrollbar,
+.container-metrostyle .metro-agencies .bachelor-content::-webkit-scrollbar{
+	width: 10px;
+	height: 10px;
+}
+
+.container-metrostyle .metro-agencies .content::-webkit-scrollbar-button:start:decrement,
+.container-metrostyle .metro-agencies .content::-webkit-scrollbar-button:end:increment,
+.container-metrostyle .metro-agencies .bachelor-content::-webkit-scrollbar-button:start:decrement ,
+.container-metrostyle .metro-agencies .bachelor-content::-webkit-scrollbar-button:end:increment{
+	height: 30px;
+	display: block;
+	background-color: transparent;
+}
+
+.container-metrostyle .metro-agencies .content::-webkit-scrollbar-track-piece,
+.container-metrostyle .metro-agencies .bachelor-content::-webkit-scrollbar-track-piece {
+	background-color: #3b3b3b;
+	-webkit-border-radius: 6px;
+}
+
+.container-metrostyle .metro-agencies .content::-webkit-scrollbar-thumb:vertical,
+.container-metrostyle .metro-agencies .bachelor-content::-webkit-scrollbar-thumb:vertical{
+	height: 50px;
+	background-color: #666;
+	border: 1px solid #eee;
+	-webkit-border-radius: 6px;
+}
